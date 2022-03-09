@@ -1,0 +1,138 @@
+.pandora__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2rem 6rem;
+}
+
+.pandora__navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.pandora__navbar-links_logo {
+  margin-right: 2rem;
+  height: 16.02px;
+}
+
+.pandora__navbar-links_logo h2 {
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+  margin-right: 30px;
+
+  display: flex;
+  flex: 1;
+}
+
+.pandora__navbar-links_container {
+  display: flex;
+  flex-direction: row;
+}
+
+.pandora__navbar-sign {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.pandora__navbar-links_container p,
+.pandora__navbar-sign p,
+.pandora__navbar-menu_container p {
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.pandora__navbar-sign button,
+.pandora__navbar-menu_container button {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  background: var(--gradient-button);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.pandora__navbar-menu {
+  margin-left: 1rem;
+  display: none;
+  position: relative;
+}
+
+.pandora__navbar-menu svg {
+  cursor: pointer;
+}
+
+.pandora__navbar-menu_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+
+  text-align: end;
+  background: var(--color-footer);
+  padding: 2rem;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+}
+
+.pandora__navbar-menu_container p {
+  margin: 1rem 0;
+}
+
+.pandora__navbar-menu_container-links-sign {
+  display: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .pandora__navbar-links_container {
+    display: none;
+  }
+
+  .pandora__navbar-menu {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .pandora__navbar {
+    padding: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .pandora__navbar {
+    padding: 2rem;
+  }
+
+  .pandora__navbar-sign {
+    display: none;
+  }
+
+  .pandora__navbar-menu_container {
+    top: 20px;
+  }
+
+  .pandora__navbar-menu_container-links-sign {
+    display: block;
+  }
+}
