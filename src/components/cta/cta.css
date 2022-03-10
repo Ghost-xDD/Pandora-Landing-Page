@@ -50,6 +50,11 @@
   min-width: 150px;
 }
 
+.pandora__cta-btn button:hover {
+  color: #000000;
+  background: #fff;
+}
+
 @media screen and (max-width: 650px) {
   .pandora__cta {
     flex-direction: column;

@@ -7,12 +7,12 @@ const Footer = () => {
     <div className="pandora__footer section__padding">
       <div className="pandora__footer-heading">
         <h1 className="gradient__text">
-          Do you want to step in to the future before others??
+          Are You Ready for the future of Technology??
         </h1>
       </div>
 
       <div className="pandora__footer-btn">
-        <p>Request Early Access</p>
+        <p>Start Building</p>
       </div>
 
       <div className="pandora__footer-links">

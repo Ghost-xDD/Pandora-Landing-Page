@@ -33,6 +33,10 @@
   flex-direction: row;
 }
 
+.pandora__navbar-links_container a:hover {
+  color: purple;
+}
+
 .pandora__navbar-sign {
   display: flex;
   justify-content: flex-end;
@@ -65,6 +69,10 @@
   border: none;
   outline: none;
   cursor: pointer;
+}
+
+.pandora__navbar-sign button:hover {
+  background: var(--gradient-text);
 }
 
 .pandora__navbar-menu {
