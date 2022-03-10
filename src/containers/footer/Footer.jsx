@@ -43,7 +43,7 @@ const Footer = () => {
         <div className="pandora__footer-links_div">
           <h4>Get in touch</h4>
           <p>Harmony Estate, Abeokuta.</p>
-          <p>ademola@info</p>
+          <p>Ademolajohn844@gmail.com</p>
         </div>
       </div>
 

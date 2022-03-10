@@ -2,7 +2,6 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  
 
   padding: 0 8rem;
   align-items: center;
@@ -80,7 +79,7 @@
   }
 
   .pandora__header-input input {
-    width: 100%;
+    color: #fff;
     font-size: 16px;
     line-height: 24px;
   }
@@ -91,8 +90,11 @@
   }
 
   .pandora__header-input button {
-    margin-top: 10px;
+    width: 50%;
+    /* margin-top: 10px; */
+    font-size: 14px;
     align-items: flex-start;
-    /* width: 50%; */
+    margin: 0 10em;
+    border-radius: 10px;
   }
 }

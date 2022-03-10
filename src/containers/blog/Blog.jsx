@@ -1,7 +1,7 @@
 import React from 'react';
 import { Article } from '../../components';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-import { world, blog02, blog03, blog04, blog05 } from './imports';
+import { world, blog02, blog03, blog04, blog05, world01 } from './imports';
 import './blog.css';
 
 const Blog = () => {
@@ -17,10 +17,10 @@ const Blog = () => {
               imgUrl={world}
               date="Sept 26, 2021"
               title="Pandora v1.0: Sharding and Economic Security"
-              snippet="This post is about the technology powering Polkadot. Polkadot is a sharded blockchain with heterogeneous shards. What sharding means in this context is splitting up the work that happens onto multiple sub-blockchains, known as parachains. What heterogeneous means in this context is that each blockchain ...."
             />
           </AnimationOnScroll>
         </div>
+
         <div className="pandora__blog-container_groupB ">
           <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce="true">
             <Article

@@ -46,7 +46,7 @@
   }
 
   .pandora__blog-container_groupA .pandora__blog-container_article {
-    width: 48%;
+    width: 100%;
   }
 
   .pandora__blog-container_groupA .pandora__blog-container_article-image {
@@ -59,8 +59,13 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .pandora__blog-container_groupA .pandora__blog-container_article-image {
-    width: 100%;
+  .pandora__blog-container_groupA {
+    display: none;
+  }
+
+  .pandora__blog-container_groupB:last-child {
+    display: flex;
+    flex-direction: column;
   }
 
   .pandora__blog-heading h1 {
@@ -73,5 +78,9 @@
   .pandora__blog-heading h1 {
     font-size: 34px;
     line-height: 42px;
+  }
+
+  .pandora__blog-container_groupA {
+    display: none;
   }
 }
